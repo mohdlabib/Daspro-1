@@ -1,0 +1,36 @@
+.container {
+  padding: 50px;
+}
+
+.container img {
+  width: 375px;
+  height: 450px;
+}
+
+.container .text-green {
+  color: #008000;
+}
+
+.container .btn {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-color: orange;
+}
+
+.container .btn:active {
+  background-color: #ffc14d;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UI3Pne4luX42UGGdgKCHjR0rQ8FRWKP42dRWMaYH/J+hszGdIrNMqcoRYI8FmgjdM/9UUQVUNfEuyKCmFSMGlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cyber\\Pictures\\pelajaran\\2\\2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cyber\\.nuget\\packages\\spectre.console\\0.45.0\\spectre.console.0.45.0.nupkg.sha512",
+    "C:\\Users\\cyber\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.csproj.AssemblyReference.cache
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.AssemblyInfoInputs.cache
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.AssemblyInfo.cs
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.csproj.CoreCompileInputs.cache
+C:\Users\cyber\Pictures\pelajaran\1\bin\Debug\net5.0\1.exe
+C:\Users\cyber\Pictures\pelajaran\1\bin\Debug\net5.0\1.deps.json
+C:\Users\cyber\Pictures\pelajaran\1\bin\Debug\net5.0\1.runtimeconfig.json
+C:\Users\cyber\Pictures\pelajaran\1\bin\Debug\net5.0\1.runtimeconfig.dev.json
+C:\Users\cyber\Pictures\pelajaran\1\bin\Debug\net5.0\1.dll
+C:\Users\cyber\Pictures\pelajaran\1\bin\Debug\net5.0\ref\1.dll
+C:\Users\cyber\Pictures\pelajaran\1\bin\Debug\net5.0\1.pdb
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.dll
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\ref\1.dll
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.pdb
+C:\Users\cyber\Pictures\pelajaran\1\obj\Debug\net5.0\1.genruntimeconfig.cache

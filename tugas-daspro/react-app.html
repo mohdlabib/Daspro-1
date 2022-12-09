@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+        div {
+            padding: 50px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        div .update {
+            background-color: #FFFF00;
+            border-radius: 8px;
+            padding: 10px 15px;
+            color: white;
+            font-weight: bold;
+        }
+
+        div button {
+            padding: 8px 10px;
+            border: none;
+            border-radius: 8px;
+            margin-right: 10px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        div button:hover {
+            -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.105) !important;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.105) !important;
+        }
+
+        div .add {
+            background-color: #31C6D4;
+        }
+
+        div .edit {
+            background-color: #38E54D;
+        }
+
+        div input {
+            padding: 4px 8px;
+            border-radius: 8px;
+            border: 2px solid grey;
+        }
+
+        /*# sourceMappingURL=asd.css.map */
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script>
+        "use strict";
+
+        class App extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    name: props.name,
+                    msg: '',
+                    elements: []
+                };
+                this.changeName = this.changeName.bind(this);
+                this.addElement = this.addElement.bind(this);
+                this.changeMsgInput = this.changeMsgInput.bind(this);
+            }
+            changeName() {
+                this.setState({
+                    name: 'React Native'
+                });
+            }
+            addElement() {
+                const oldElements = this.state.elements;
+                this.setState({
+                    elements: oldElements.concat(oldElements.length + 1)
+                });
+            }
+            changeMsgInput(e) {
+                this.setState({
+                    msg: e.target.value
+                });
+            }
+            render() {
+                let updatep = '',
+                    namePClass = '';
+                if (this.state.name != this.props.name) {
+                    updatep = /*#__PURE__*/ React.createElement("p", null, "Name Update !!!");
+                    namePClass = 'update';
+                }
+                let list = this.state.elements.map(el => {
+                    return /*#__PURE__*/ React.createElement("li", {
+                        key: el
+                    }, el);
+                });
+                return /*#__PURE__*/ React.createElement("div", null, /*#__PURE__*/ React.createElement("p", {
+                        className: namePClass
+                    }, this.state.name), updatep, /*#__PURE__*/ React.createElement("button", {
+                        className: "edit",
+                        onClick: this.changeName
+                    }, "Change Name"), /*#__PURE__*/ React.createElement("button", {
+                        className: "add",
+                        onClick: this.addElement
+                    }, "New Element"), /*#__PURE__*/ React.createElement("ul", null, list), /*#__PURE__*/
+                    React.createElement("input", {
+                        type: "text",
+                        value: this.state.msg,
+                        onChange: this.changeMsgInput
+                    }), /*#__PURE__*/ React.createElement("p", null, this.state.msg));
+            }
+        }
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render( /*#__PURE__*/ React.createElement(App, {
+            name: "React.js"
+        }));
+    </script>
+</body>
+
+</html>

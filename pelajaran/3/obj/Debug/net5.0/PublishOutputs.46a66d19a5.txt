@@ -1,0 +1,6 @@
+C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\publish\2.exe
+C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\publish\2.dll
+C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\publish\2.deps.json
+C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\publish\2.runtimeconfig.json
+C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\publish\2.pdb
+C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\publish\Spectre.Console.dll

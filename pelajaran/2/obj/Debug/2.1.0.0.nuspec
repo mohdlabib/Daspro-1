@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>2</id>
+    <version>1.0.0</version>
+    <authors>2</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Spectre.Console" version="0.45.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\2.runtimeconfig.json" target="lib\net5.0\2.runtimeconfig.json" />
+    <file src="C:\Users\cyber\Pictures\pelajaran\2\bin\Debug\net5.0\2.dll" target="lib\net5.0\2.dll" />
+  </files>
+</package>

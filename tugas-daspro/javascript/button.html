@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main.css">
+    <title>Button</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>Javascript membuat halaman web menjadi interaktif.</p>
+        <button type="button" class="btn">Coba Klik!</button>
+    </div>
+
+    <script>
+        let btn = document.querySelector("button.btn");
+
+        btn.addEventListener("click", (e) => {
+            let text = "Berhasil! Ini contoh implementasi Javascript.";
+            e.target.previousElementSibling.innerHTML = text;
+        })
+    </script>
+</body>
+
+</html>

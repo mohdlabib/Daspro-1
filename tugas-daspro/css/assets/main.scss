@@ -1,0 +1,28 @@
+.container {
+    padding: 50px;
+
+    img.logo {
+        width: 50px;
+        height: 50px;
+        // display: block;
+        // margin-left: 70px;
+        // margin-right: auto;
+    }
+
+    .text-green {
+        color: #008000;
+    }
+
+    p.p-1 {
+        padding-top: 2cm;
+    }
+
+    p.p-2 {
+        padding-top: 50%;
+    }
+
+}
+
+.center {
+    text-align: center;
+}

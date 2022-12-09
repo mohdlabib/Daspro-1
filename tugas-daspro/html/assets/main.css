@@ -1,0 +1,13 @@
+.container {
+  padding: 50px;
+}
+
+.container img {
+  width: 375px;
+  height: 450px;
+}
+
+.container .text-green {
+  color: #008000;
+}
+/*# sourceMappingURL=main.css.map */
